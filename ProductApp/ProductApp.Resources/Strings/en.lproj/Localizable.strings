@@ -1,0 +1,87 @@
+/*
+ Localizable.strings
+ SugarDaddyMatch
+ 
+ Created by Daniel Stanciu on 02/11/15.
+ Copyright © 2015 Enrico Sersale. All rights reserved.
+ */
+
+// Errors & Warnings
+"error"="Error";
+"warning"="Warning";
+"alertpasswordmessage"="The password and its confirmation must be identical!";
+"alertpasswordlength"="The password must be at least 6 characters long!";
+"errorfailedtoconnect"="Failed to connect to the server. Please check your Internet connection and try again.";
+
+// Settings Screen
+"settings_title" = "Settings";
+"settings_change_search" = "Change Search Settings";
+"settings_faq" = "FAQs";
+"settings_favourites" = "Favourites";
+"settings_messages" = "Messages";
+"settings_edit_profile" = "Edit Profile";
+"settings_edit_photos" = "Edit Photos";
+"settings_auto_flirt" = "Auto Flirt";
+"subscription"="Subscription";
+
+// Edit Profile Screen
+"citystateprovince"="City/State/Province";
+"dateofbirth"="Date of Birth";
+"newpassword"="New Password";
+"confirmpassword"="Confirm Password";
+
+// Edit Photos Screen
+"delete" = "Delete";
+"addphoto" = "Add Photo";
+"photoswhere"="Select where to add photos from.";
+"photoaddcamera"="Add from Camera";
+"photoaddgallery"="Add from Gallery";
+"cancel"="Cancel";
+
+// Subscription Screen
+"subscriptionmessage"="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu maximus mauris, semper sodales nibh. Fusce vitae nunc sit amet tortor porttitor facilisis. Aenean a ligula tortor. Nam sagittis magna tortor, non viverra dolor vestibulum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque sit amet tortor leo. Vivamus ut lectus id lorem laoreet tincidunt ut sed tellus.";
+"monthpremiummembership"="Month Premium Membership";
+"amonth"="a month";
+"restore"="Restore";
+
+// Search Settings Screen
+"done"="Done";
+"distance"="Distance (miles)";
+"gender"="Gender";
+"citizenship"="Citizenship";
+"ancestralparentcountry"="Ancestral/Parent Country";
+"minimumage"="Minimim Age";
+"maximumage"="Maximum Age";
+"minumimheight"="Minimum Height";
+"maximumheight"="Maximum Height";
+"maritalstatus"="Marital Status";
+"kids"="Should the partener have kids?";
+"race"="Race";
+"education"="Education";
+"occupation"="Occupation";
+"appearance"="Appearance";
+"religious"="Should the partner be religious?";
+"sect"="Sect";
+"starsign"="Star Sign";
+"bodytype"="Body Type";
+"vegetarian"="Should the partner be vegetarian?";
+"drink/smoke"="Should the partner drink/smoke?";
+"lookingfor"="Looking for";
+"turban"="Wear Turban?";
+"salaah"="Salaah?";
+"beard"="Have Beard?";
+"hijab"="Wear Hijab?";
+"halal"="Keep Halal?";
+"revert"="Revert?";
+"other"="More Info";
+"HIV"="HIV";
+"prefermeeting"="Prefer Meeting";
+"practice"="Practice";
+"role"="Role";
+"bodyhair"="Body Hair";
+"circumcised"="Circumcised";
+"endowment"="Endowment (inches)";
+"brasize"="Bra Size";
+"type"="Type";
+"scene"="Scene";
+"male"="Male";

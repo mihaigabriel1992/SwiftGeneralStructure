@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  SugarDaddyMatch
+
+  Created by Daniel Stanciu on 02/11/15.
+  Copyright © 2015 Enrico Sersale. All rights reserved.
+*/
+
+// Settings Screen
+"settings_title" = "Settings";
+"settings_change_search" = "Change Search Settings";
+"settings_faq" = "FAQs";
+"settings_favourites" = "Favourites";
+"settings_messages" = "Messages";
+"settings_edit_profile" = "Edit Profile";
+"settings_edit_photos" = "Edit Photos";
+"settings_auto_flirt" = "Auto Flirt";
