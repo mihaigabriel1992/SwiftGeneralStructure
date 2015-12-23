@@ -10,7 +10,9 @@ import UIKit
 import Alamofire
 import AlamofireObjectMapper
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    var listOfItems = ["ic_android.png", "ic_build.png", "ic_assignment_returned.png", "ic_android.png", "ic_build.png", "ic_assignment_returned.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,5 +60,44 @@ class ViewController: UIViewController {
         }
     }
     
+    //MARK: collection view delegates
+ 
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return listOfItems.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cellIdentifier", forIndexPath: indexPath) as! FocusableCollectionViewCell
+        
+        cell.overlayedFocusableImageView.image = UIImage(named: listOfItems[indexPath.row])
+        
+        return cell
+    }
+    
+    func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath) {
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        
+        UIView.animateWithDuration(0.1,
+            delay: 0,
+            options: .AllowUserInteraction,
+            animations: {
+                cell?.backgroundColor = UIColor.redColor()
+            }, completion: nil)
+    }
+    
+    func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath) {
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        
+        UIView.animateWithDuration(0.1,
+            delay: 0,
+            options: .AllowUserInteraction,
+            animations: {
+                cell?.backgroundColor = UIColor.clearColor()
+            }, completion: nil)
+    }
 }
 

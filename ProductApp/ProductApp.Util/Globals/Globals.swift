@@ -2,8 +2,8 @@
 //  Globals.swift
 //  BookYourToilet
 //
-//  Created by Dragos Iancu on 9/18/14.
-//  Copyright (c) 2014 Dragos Iancu. All rights reserved.
+//  Created by Gabriel Petrescu on 9/18/14.
+//  Copyright (c) 2014 Gabriel Petrescu. All rights reserved.
 //
 
 import Foundation

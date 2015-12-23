@@ -24,6 +24,7 @@
 		15B2D7C21C28255C002DBE55 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2D7B11C28255C002DBE55 /* Globals.swift */; };
 		15B2D7C31C28255C002DBE55 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2D7B31C28255C002DBE55 /* ImageHelper.swift */; };
 		15B2D7C41C28255C002DBE55 /* ProductApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15B2D7B41C28255C002DBE55 /* ProductApp.xcdatamodeld */; };
+		15B2D7C81C294C2C002DBE55 /* FocusableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2D7C71C294C2C002DBE55 /* FocusableCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		15B2D7B11C28255C002DBE55 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		15B2D7B31C28255C002DBE55 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		15B2D7B51C28255C002DBE55 /* ProductApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductApp.xcdatamodel; sourceTree = "<group>"; };
+		15B2D7C71C294C2C002DBE55 /* FocusableCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusableCollectionViewCell.swift; sourceTree = "<group>"; };
 		F114296A8BD9A7D81A820074 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FE643F806E52A973676CB69C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,7 +127,6 @@
 			children = (
 				15B2D78D1C28255C002DBE55 /* ProductApp.Application */,
 				15B2D7921C28255C002DBE55 /* ProductApp.Data */,
-				15B2D79C1C28255C002DBE55 /* ProductApp.Networking */,
 				15B2D79D1C28255C002DBE55 /* ProductApp.Presentation */,
 				15B2D7A31C28255C002DBE55 /* ProductApp.Resources */,
 				15B2D7AB1C28255C002DBE55 /* ProductApp.Util */,
@@ -211,13 +212,6 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
-		15B2D79C1C28255C002DBE55 /* ProductApp.Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ProductApp.Networking;
-			sourceTree = "<group>";
-		};
 		15B2D79D1C28255C002DBE55 /* ProductApp.Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +233,7 @@
 		15B2D7A01C28255C002DBE55 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				15B2D7C71C294C2C002DBE55 /* FocusableCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -522,6 +517,7 @@
 			files = (
 				15B2D7BC1C28255C002DBE55 /* ViewController.swift in Sources */,
 				15B2D7B61C28255C002DBE55 /* AppDelegate.swift in Sources */,
+				15B2D7C81C294C2C002DBE55 /* FocusableCollectionViewCell.swift in Sources */,
 				15B2D7C31C28255C002DBE55 /* ImageHelper.swift in Sources */,
 				15B2D7C41C28255C002DBE55 /* ProductApp.xcdatamodeld in Sources */,
 				15B2D7B91C28255C002DBE55 /* PostResponse.swift in Sources */,
@@ -668,6 +664,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ownzones.ProductApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -681,6 +678,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ownzones.ProductApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};

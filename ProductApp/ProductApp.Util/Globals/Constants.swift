@@ -2,8 +2,8 @@
 //  Constants.swift
 //  SugarDaddyMatch
 //
-//  Created by Daniel Stanciu on 29/10/15.
-//  Copyright © 2015 Enrico Sersale. All rights reserved.
+//  Created by Gabriel Petrescu on 29/10/15.
+//  Copyright © 2015 Gabriel Petrescu. All rights reserved.
 //
 
 import Foundation
