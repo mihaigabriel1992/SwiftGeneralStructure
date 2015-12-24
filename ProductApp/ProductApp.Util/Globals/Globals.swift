@@ -2,8 +2,8 @@
 //  Globals.swift
 //  BookYourToilet
 //
-//  Created by Gabriel Petrescu on 9/18/14.
-//  Copyright (c) 2014 Gabriel Petrescu. All rights reserved.
+//  Created by Gabriel Petrescu on 12/21/15.
+//  Copyright © 2015 OwnZones. All rights reserved.
 //
 
 import Foundation
